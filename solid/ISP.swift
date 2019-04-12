@@ -1,5 +1,10 @@
 import Foundation
 
+/*
+Interface Segregation Principle
+Segregate functionalities in differents interfaces. (i.e. protocols) YAGNI - You Ain’t Going to Need It
+*/
+
 class Document
 {
 

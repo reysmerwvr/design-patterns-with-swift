@@ -1,7 +1,10 @@
 import Foundation
 
-// hl modules should not depend on low-level; both should depend on abstractions
-// abstractions should not depend on details; details should depend on abstractions
+/*
+Dependency Inversion Principle
+High level modules should not depend on low level modules but that both, should depend on abstractions. 
+Abstractions should not depend on details but details should depend on abstractions.
+*/
 
 enum Relationship
 {

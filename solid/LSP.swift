@@ -1,5 +1,10 @@
 import Foundation
 
+/*
+Liskov Substitution Principle
+  (Named after Barbara Liskov) You should be able to substitute a base type for a subtype
+*/
+
 class Rectangle : CustomStringConvertible
 {
   internal var _width: Int = 0
