@@ -27,7 +27,7 @@ class ClassBuilder : CustomStringConvertible {
     public var description: String {
         var codeStatement = "class \(name)\n{\n"
         for field in fields {
-            codeStatement.append("   \(field)\n");
+            codeStatement.append("  \(field)\n");
         }
         codeStatement.append("}\n")
         return codeStatement
